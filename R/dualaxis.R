@@ -1,5 +1,5 @@
 # Code used to generate a plot with two y-axes via ggplot2. This isn't considered good statistical practice but the code is here should clients demand it.
-# All the work was done by "koskhe" at http://rpubs.com/kohske/dual_axis_in_ggplot2
+# All the work was done by "kohske" at http://rpubs.com/kohske/dual_axis_in_ggplot2
 # I only made minor cosmetic changes to suit my purposes
 
 library(ggplot2)
