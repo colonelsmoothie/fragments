@@ -1,0 +1,20 @@
+% Produces a file with unnumbered sections that still appear in the table of contents
+% See http://tex.stackexchange.com/questions/30122/generate-table-of-contents-when-section-sections-without-numbering-has-been for more info
+
+\documentclass{article}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+\section{First}
+
+\newpage
+
+\section{Second}
+
+\end{document}
