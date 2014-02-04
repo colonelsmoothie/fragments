@@ -1,0 +1,5 @@
+% Will output a data frame (df) as a table in LaTeX. Remember to set results='asis'
+
+<<results='asis'>>=
+print(xtable(df),caption="a table")
+@
