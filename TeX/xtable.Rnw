@@ -3,3 +3,7 @@
 <<results='asis'>>=
 print(xtable(df),caption="a table")
 @
+
+see:
+
+http://blenditbayes.blogspot.com/2013/08/creating-quick-report-with-knitr-xtable.html
