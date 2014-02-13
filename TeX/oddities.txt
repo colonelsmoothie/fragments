@@ -1,0 +1,3 @@
+# Document failed
+
+I was helping a coworker with a cryptic error message she encountered while trying to compile a .Rnw document. It had something to do with compilaton failure but despite this, a pdf with the output did result. After some examination I found out that she didn't escape her underscores - something not required in R but in LaTeX. The proper escape is \\_ which has two backslashes since you need to escape the escape character, interestingly.
