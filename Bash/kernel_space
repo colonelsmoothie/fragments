@@ -1,0 +1,5 @@
+See: http://askubuntu.com/questions/142926/cant-upgrade-due-to-low-disk-space-on-boot
+
+I had an issue upgrading my OS today and it's because there wasn't enough space on the /boot directory. The solution to this well, is to free up space in that directory, namely by deleting old kernels.
+
+Instructions on how to do so are in the link.
