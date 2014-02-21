@@ -1,0 +1,8 @@
+# Issue with installing RMySQL came up today, see below:
+
+http://bertelsen.ca/setup/installing-rmysql-error/
+
+# what happened was that 3 packages needed to be installed
+# can be solved with
+
+sudo apt-get install libdbd-mysql libmysqlclient-dev libmysqlclient18
