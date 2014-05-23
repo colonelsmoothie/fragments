@@ -1,0 +1,4 @@
+Script to decompress 7z files
+need to install p7zip
+
+p7zip -d myfile.7z
