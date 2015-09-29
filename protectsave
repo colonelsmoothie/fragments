@@ -1,0 +1,11 @@
+If I ever have to do this again:
+
+http://www.pcreview.co.uk/threads/protect-worksheet-workbook-in-beforesave-event.3050049/
+
+You can't unprotect the worksheet by prompting Private Sub Workbook BeforeSave(ByVal SaveAsUI As Boolean, Cancel As Boolean) using Thisworkbook.save
+
+You need to:
+
+Application.EnableEvents = False
+ThisWorkbook.Save
+Application.EnableEvents = True
